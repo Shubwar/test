@@ -6,3 +6,5 @@ def outer():
 
     return inner
 
+def factor():
+    pass
