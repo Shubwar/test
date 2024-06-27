@@ -8,3 +8,13 @@ def outer():
 
 def factor():
     pass
+
+# this is added by amit
+
+class Emlpoyee:
+
+    def __init__(self, name):
+        self.name = name
+    
+    def __str__(self):
+        return self.name
