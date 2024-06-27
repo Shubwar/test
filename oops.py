@@ -19,6 +19,8 @@
 
 from ast import Pass
 
+def add():
+    pass
 
 class ClassName:   #---empty class--paranthesis optional---capital 
     pass
