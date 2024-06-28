@@ -1,7 +1,7 @@
-USERNAME = "shubham"
-PASSWORD = "shubham1995"
+from .constants import USERNAME, PASSWORD
 
 def login(user, password):
+    """login function"""
     if user == USERNAME and password == PASSWORD:
         print("user logged in successfully")
     else:
