@@ -7,4 +7,6 @@ def login(user, password):
     else:
         print("invalid credentials")
 
+def logout():
+    print("successfully logged out")
     
